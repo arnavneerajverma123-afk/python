@@ -1,0 +1,10 @@
+amount=int(input("money"))
+notes_100=amount//100
+notes_50=(amount%100)//50
+notes_10=((amount%100)%50)//10
+print(notes_100)
+print(notes_50)
+print(notes_10)
+number=int(input(a))
+square_root=(a**0.5)
+print(square_root)
